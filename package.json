@@ -1,12 +1,12 @@
 {
   "name": "objectflip",
   "repo": "zesk/objectflip",
-  "description": "Flip an object so keys and values are identical, takes an object with keys and returns object with keys and values set identically.",
+  "description": "Module to flip an object so keys are values and values are keys.",
   "author": {
     "name": "Kent Davidson",
     "url": "https://marketacumen.com/"
   },
-  "version": "0.2.2",
+  "version": "0.3.0",
   "keywords": [
     "object",
     "flip",

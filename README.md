@@ -1,6 +1,6 @@
 # objectflip
 
-npmjs module to flip an object so keys and values are identical, takes an object with keys and returns object with keys and values set identically.
+npmjs module to flip an object so keys are values and values are keys.
 
 # Installation
 
@@ -16,7 +16,8 @@ Pass in an object, and returns an object:
 
 	import objectflip from "objectflip";
 	
-	console.log(objectflip({ "Hello": null, "world": null }));
-	> { "Hello": "Hello", "world": "world" }
+	console.log(objectflip({ "Hello": 123, "world": "gary" }));
+	> { "123": "Hello", "gary": "world" }
 	
-Useful for creating objects which are constants where the value is identical to the name.
+Useful for creating inverse maps.
+
