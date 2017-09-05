@@ -16,8 +16,7 @@ Pass in an object, and returns an object:
 
 	import objectflip from "objectflip";
 	
-	var object = ;
+	console.log(objectflip({ "Hello": null, "world": null }));
+	> { "Hello": "Hello", "world": "world" }
 	
-	> console.log(objectflip(object));
-	{ "Hello": "Hello", "world": "world" }
-
+Useful for creating objects which are constants where the value is identical to the name.
