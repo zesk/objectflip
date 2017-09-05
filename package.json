@@ -1,0 +1,22 @@
+{
+  "name": "objectflip",
+  "repo": "zesk/objectflip",
+  "description": "Flip an object so keys and values are identical, takes an object with keys and returns object with keys and values set identically.",
+  "author": {
+	  "name": "Kent Davidson",
+	  "url": "https://marketacumen.com/"
+  },
+  "version": "0.1.0",
+  "keywords": [
+    "object",
+    "flip",
+    "objectflip"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "component": {
+    "scripts": {}
+  }
+}
